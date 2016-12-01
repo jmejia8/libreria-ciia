@@ -119,19 +119,19 @@
 
 			<div id="main-container-image">
                        
-					<section class="work">
+					<section class="work" ng-app ng-model="loadBooks" ng-controller="myController">
 
 						<figure class="white">
 							<a href="details.html">
 								<img src="img/psd-4.jpg" alt="" />
 								<dl>
-									<dt>Wordpress theme</dt>
-									<dd>Symphony is a responsive one page website template designed with sketches and coded with html5 and php. Freebie released by Lacoste Xavier.</dd>	
+									<dt>{{bookTitle}}</dt>
+									<dd>{{description}}</dd>	
 								</dl>
 							</a>
                             <div id="wrapper-part-info">
                             	<div class="part-info-image"><img src="img/icon-psd.svg" alt="" width="28" height="28"/></div>
-                            	<div id="part-info">Wordpress theme</div>
+                            	<div id="part-info">{{bookTitle}}</div>
 							</div>
                         </figure>	
 
@@ -480,6 +480,12 @@
 	<script type="text/javascript" src="js/jquery.animate-colors-min.js"></script>
 	<script type="text/javascript" src="js/jquery.animate-shadow-min.js"></script>    
 	<script type="text/javascript" src="js/main.js"></script>
+
+	<!-- ===== jmejia ============== -->
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script type="text/javascript" src="js/load-books.js"></script>
+	<!-- ===== jmejia ============== -->
 	<script>
 	
 
@@ -548,6 +554,14 @@ function addLoadEvent(func) {
 }
 addLoadEvent(preloader);
 
+</script>
+
+<script type="text/javascript">
+	var app = angular.module('loadBooks', []);
+app.controller('myController', function($scope) {
+    $scope.bookTitle= "John";
+    $scope.description= "Doe";
+});
 </script>
 
 

@@ -23,7 +23,44 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 20649,
+				"buffer_size": 21018,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/jmejia/Desktop/kb-light.py",
+			"settings":
+			{
+				"buffer_size": 1162,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "/usr/local/bin/kb-light.py"
+			}
+		},
+		{
+			"file": "/sys/devices/platform/sony-laptop/kbd_backlight",
+			"settings":
+			{
+				"buffer_size": 3,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "268397108",
+			"settings":
+			{
+				"buffer_size": 9,
+				"line_ending": "Unix",
+				"name": "268397108"
+			}
+		},
+		{
+			"file": "js/load-books.js",
+			"settings":
+			{
+				"buffer_size": 0,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -32,7 +69,16 @@
 			"file": "libs/pdf_to_img.php",
 			"settings":
 			{
-				"buffer_size": 1157,
+				"buffer_size": 820,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 6,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -41,7 +87,7 @@
 			"file": "/var/log/httpd/error_log",
 			"settings":
 			{
-				"buffer_size": 7011,
+				"buffer_size": 15878,
 				"line_ending": "Unix"
 			}
 		}
@@ -115,7 +161,8 @@
 	"expanded_folders":
 	[
 		"/srv/http/libreria",
-		"/srv/http/libreria/files"
+		"/srv/http/libreria/files",
+		"/srv/http/libreria/js"
 	],
 	"file_history":
 	[
@@ -135,7 +182,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
 		]
@@ -145,6 +192,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"myController",
+			"loadBooks",
 			"display_errors"
 		],
 		"highlight": true,
@@ -163,7 +212,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -172,7 +221,35 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 20649,
+						"buffer_size": 21018,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3608,
+								3612
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1184.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/jmejia/Desktop/kb-light.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1162,
 						"regions":
 						{
 						},
@@ -185,7 +262,10 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"auto_name": "/usr/local/bin/kb-light.py",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -195,40 +275,154 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "libs/pdf_to_img.php",
+					"buffer": 2,
+					"file": "/sys/devices/platform/sony-laptop/kbd_backlight",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1157,
+						"buffer_size": 3,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								958,
-								958
+								3,
+								3
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								9
+							]
+						],
+						"settings":
+						{
+							"auto_name": "268397108",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "js/load-books.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "libs/pdf_to_img.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 820,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								312,
+								312
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6,
+								6
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "/var/log/httpd/error_log",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7011,
+						"buffer_size": 15878,
 						"regions":
 						{
 						},
@@ -247,7 +441,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
